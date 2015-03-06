@@ -1,0 +1,45 @@
+{
+  "name": "grunt-threejs-geometry-transcode-format-to-custom-binary",
+  "version": "1.0.0",
+  "description": "A grunt plugin for threejs-geometry-transcode-format-to-custom-binary.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tomasz Dysinski",
+    "email": "oz@bunnybones.com",
+    "url": "https://github.com/bunnybones1"
+  },
+  "dependencies": {
+    "threejs-geometry-transcode-format-to-custom-binary": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "task",
+    "threejs",
+    "geometry",
+    "format",
+    "transcode",
+    "binary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bunnybones1/grunt-threejs-geometry-transcode-format-to-custom-binary.git"
+  },
+  "homepage": "https://github.com/bunnybones1/grunt-threejs-geometry-transcode-format-to-custom-binary",
+  "bugs": {
+    "url": "https://github.com/bunnybones1/grunt-threejs-geometry-transcode-format-to-custom-binary/issues"
+  }
+}
